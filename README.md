@@ -24,7 +24,7 @@ The content in the original file will be copied in the new file
 The END.
 
 ## PROGRAM:
-'''
+```
 #Program to copy the contents from one file to another file
 #Developed by: PAVAN KISHORE.M
 #Register number: 212221230076
@@ -33,7 +33,7 @@ with open("lose.txt","r") as fp:
     copy=fp.read()
 with open("copy.txt","w") as cp:
     cp.write(copy)
-'''
+```
 ### OUTPUT:
 ![](words.jpg)
 
